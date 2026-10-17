@@ -302,7 +302,7 @@ def last_kb():
 
 
 name = dispatch_cb(f"47:{plugin.UUID}:0")
-check("5.3 страница настроек открывает меню", name == "open_home" and "Шпион покупателя" in last_text())
+check("5.3 страница настроек открывает меню", name == "open_home" and "BuyerSpy" in last_text())
 check("5.4 в меню статусы режимов и последний покупатель",
       "При новом заказе: <b>ВКЛ" in last_text() and "buyer1" in last_text())
 

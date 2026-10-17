@@ -48,12 +48,12 @@ from FunPayAPI.common.enums import MessageTypes
 logger = logging.getLogger("FPC.BuyerSpy")
 
 # ══════════════════════════════ МЕТАДАННЫЕ ПЛАГИНА ══════════════════════════════
-NAME = "Шпион покупателя (BuyerSpy)"
-VERSION = "1.0.0"
+NAME = "BuyerSpy (Buyer Viewing Spy)"
+VERSION = "1.0.1"
 DESCRIPTION = ("Показывает, что покупатель смотрит на FunPay прямо сейчас — ваш лот или конкурента. "
                "Авто-проверка при новом заказе и (опционально) по первому сообщению в чате, "
                "ручная команда /spy <ID>. Команда: /spy")
-CREDITS = "Qwen (для FunPay Cardinal)"
+CREDITS = "yungspider"
 UUID = "30ae8a86-8388-461b-8834-733496eac0e8"
 SETTINGS_PAGE = True
 
